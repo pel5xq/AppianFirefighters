@@ -16,4 +16,9 @@ public interface Firefighter {
    * @return the total distance traveled by this firefighter
    */
   int distanceTraveled();
+
+  /**
+   * Direct the firefighter to move to the destination and extinguish any fire present.
+   */
+  void dispatch(Building destination);
 }
